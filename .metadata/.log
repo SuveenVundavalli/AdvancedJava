@@ -6057,3 +6057,123 @@ Binding(COMMAND+D,
 !MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jpa.feature,1.3.2.20161026-1738
 !SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-04-19 17:18:55.964
 !MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jsf.feature,1.3.2.20161026-1738
+!SESSION 2017-04-20 09:40:04.516 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Suveen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Suveen/.eclipse_keyring
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:40:21.049
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:40:21.055
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:40:21.104
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:40:21.105
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:40:21.147
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:40:21.148
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface 2 0 2017-04-20 09:40:26.165
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-04-20 09:40:26.166
+!MESSAGE A conflict occurred for COMMAND+D:
+Binding(COMMAND+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fec6b75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74cca90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-20 09:41:06.259
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:43:14.269
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 09:43:14.270
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-04-20 09:43:30.249
+!MESSAGE Full project indexing required:
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/charsets.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/jaccess.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/localedata.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/sunec.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jce.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jfr.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jsse.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/resources.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar
+  [+] /System/Library/Java/Extensions/AppleScriptEngine.jar
+  [+] /System/Library/Java/Extensions/MRJToolkit.jar
+  [+] /System/Library/Java/Extensions/dns_sd.jar
+  [+] /System/Library/Java/Extensions/j3daudio.jar
+  [+] /System/Library/Java/Extensions/j3dcore.jar
+  [+] /System/Library/Java/Extensions/j3dutils.jar
+  [+] /System/Library/Java/Extensions/jai_codec.jar
+  [+] /System/Library/Java/Extensions/jai_core.jar
+  [+] /System/Library/Java/Extensions/mlibwrapper_jai.jar
+  [+] /System/Library/Java/Extensions/vecmath.jar
+  [+] /Users/Suveen/Tomcat/lib/annotations-api.jar
+  [+] /Users/Suveen/Tomcat/lib/catalina-ant.jar
+  [+] /Users/Suveen/Tomcat/lib/catalina-ha.jar
+  [+] /Users/Suveen/Tomcat/lib/catalina-storeconfig.jar
+  [+] /Users/Suveen/Tomcat/lib/catalina-tribes.jar
+  [+] /Users/Suveen/Tomcat/lib/catalina.jar
+  [+] /Users/Suveen/Tomcat/lib/ecj-4.6.1.jar
+  [+] /Users/Suveen/Tomcat/lib/el-api.jar
+  [+] /Users/Suveen/Tomcat/lib/jasper-el.jar
+  [+] /Users/Suveen/Tomcat/lib/jasper.jar
+  [+] /Users/Suveen/Tomcat/lib/jaspic-api.jar
+  [+] /Users/Suveen/Tomcat/lib/jsp-api.jar
+  [+] /Users/Suveen/Tomcat/lib/servlet-api.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-api.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-coyote.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-dbcp.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-i18n-es.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-i18n-fr.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-i18n-ja.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-jdbc.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-jni.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-util-scan.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-util.jar
+  [+] /Users/Suveen/Tomcat/lib/tomcat-websocket.jar
+  [+] /Users/Suveen/Tomcat/lib/websocket-api.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
