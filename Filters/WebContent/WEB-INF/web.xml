@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Filters</display-name>
+  <welcome-file-list>
+    
+    <welcome-file>index.html</welcome-file>
+    
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>Reg</servlet-name>
+  	<servlet-class>com.niit.RegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Reg</servlet-name>
+  	<url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  	<filter-name>R</filter-name>
+  	<filter-class>com.niit.AuthorizationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>R</filter-name>
+  	<url-pattern>/reg</url-pattern>
+  </filter-mapping>
+</web-app>

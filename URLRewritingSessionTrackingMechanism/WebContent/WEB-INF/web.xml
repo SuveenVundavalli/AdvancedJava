@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>URLRewritingSessionTrackingMechanism</display-name>
+  <welcome-file-list>
+    
+    <welcome-file>index.jsp</welcome-file>
+    
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Form2</servlet-name>
+    <servlet-class>com.niit.Form2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Form2</servlet-name>
+    <url-pattern>/form2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Form3</servlet-name>
+    <servlet-class>com.niit.Form3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Form3</servlet-name>
+    <url-pattern>/form3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Display</servlet-name>
+    <servlet-class>com.niit.Display</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Display</servlet-name>
+    <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+</web-app>
